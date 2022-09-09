@@ -21,6 +21,7 @@ export const App = () => {
         break;
       case 'neutral':
         setNeutral(prevState => prevState + 1);
+        break;
       default:
         return;
     }
